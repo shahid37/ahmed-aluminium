@@ -1,0 +1,12 @@
+{
+    "mode": "dark",
+    "background": "#202129",
+    "secondaryBG": "#33343E",
+    "iconsBG": "#C4C4C4",
+    "dimBackground": "#32333d",
+    "text": "#fff",
+    "dimText": "#c6bfba",
+    "borderColor": "#202129",
+    "secondaryText": "#8F8F8F",
+    "content": "light-content"
+}

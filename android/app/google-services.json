@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "237035521595",
+    "project_id": "ahmedaluminium-edf25",
+    "storage_bucket": "ahmedaluminium-edf25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237035521595:android:5039a91ea3f8bba4317e1e",
+        "android_client_info": {
+          "package_name": "com.ahmedaluminium.pk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237035521595-np8edp4cifedg54bc1hfdno0eccb7u08.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD891IB1qE0sIVFvktlj4BPyjdID7iu0U4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237035521595-np8edp4cifedg54bc1hfdno0eccb7u08.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
