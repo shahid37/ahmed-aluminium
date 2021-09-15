@@ -87,13 +87,12 @@ class ForgetPassword extends Component {
         style={{backgroundColor: '#fff', flex: 1}}>
         <StatusBar backgroundColor="#fff" />
 
-        {/* <Image
+        <Image
           style={{marginLeft: Height(-3)}}
           resizeMode="center"
-          // todo set
-          // source={require('../images/check_Email.png')}
+          source={require('../images/check_Email.png')}
           // source={require('../images/avatar.png')}
-        /> */}
+        />
 
         <View style={{top: Height(-5)}}>
           <View style={styles.loginTxtView}>

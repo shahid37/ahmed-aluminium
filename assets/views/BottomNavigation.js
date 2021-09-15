@@ -59,8 +59,8 @@ import IoniconsIcon from 'react-native-vector-icons/Ionicons';
 import {useIsDrawerOpen} from '@react-navigation/drawer';
 
 import Svg, {Path} from 'react-native-svg';
-// todo use drawer after code setup
-// import LeftSideDrawer from './LeftSideDrawer';
+
+import LeftSideDrawer from './LeftSideDrawer';
 
 const Drawer = createDrawerNavigator();
 // const isDrawerOpen = useIsDrawerOpen();
@@ -161,7 +161,7 @@ class BottomNavigation extends React.Component {
         {this.state.currentTab == 2 && (
           <GetQoute navigation={this.props.navigation} />
         )}
-        {/* {this.state.currentTab == 1 && <LeftSideDrawer />} */}
+        {this.state.currentTab == 1 && <LeftSideDrawer />}
 
         {this.state.currentTab == 0 && (
           <ProfileSettings navigation={this.props.navigation} />

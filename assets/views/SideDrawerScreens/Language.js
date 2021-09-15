@@ -100,10 +100,8 @@ export default class Language extends Component {
     return (
       <View style={styles.mainContainer}>
         <MyHeader title="Language" navigation={this.props.navigation} />
-        // todo
         <Image
-          //   source={require('../../images/intro3.png')}
-          source={require('../../images/touch.png')}
+          source={require('../../images/intro3.png')}
           style={styles.introImageStyle}
           resizeMode={'center'}
         />

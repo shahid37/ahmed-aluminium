@@ -80,18 +80,15 @@ class Home extends React.Component {
       //   { id: "6", title: "Ramadan", date: "12-01-2021", info: "Join Now", image: "https://img.freepik.com/free-photo/young-people-runner-running-running-road-city-park_41380-393.jpg?size=626&ext=jpg&ga=GA1.2.1385983377.1611642518", },
 
       // ],
-      // todo use original icon
-      // image: require('../images/home_menu_4.png'),
       headerValues: [
         {
           id: 1,
-          image: require('../images/touch.png'),
+          image: require('../images/home_menu_4.png'),
           onPress: () => props.navigation.navigate('ChallengeDetail'),
         },
         {
           id: 2,
-          image: require('../images/touch.png'),
-          // image: require('../images/home_menu_4.png'),
+          image: require('../images/home_menu_4.png'),
           // onPress: () => props.navigation.navigate("ChatInbox", { _userId: 1 })
         },
         //  {

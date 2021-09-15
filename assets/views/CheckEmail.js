@@ -161,12 +161,11 @@ class CheckEmail extends Component {
         {console.log(this.state.id)}
         {/* <ScrollView contentContainerStyle={{flex:1}} > */}
         <StatusBar backgroundColor="#fff" />
-        // todo remove comments
-        {/* <Image
+        <Image
           style={{marginLeft: Height(-3)}}
           resizeMode="center"
           source={require('../images/check_Email.png')}
-        /> */}
+        />
         <View style={{top: Height(-5)}}>
           <View style={styles.loginTxtView}>
             <Text style={styles.loginTxt}>Check Email</Text>

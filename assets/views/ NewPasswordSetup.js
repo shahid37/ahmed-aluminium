@@ -291,8 +291,7 @@ class NewPasswordSetup extends Component {
         showsVerticalScrollIndicator={false}
         style={{backgroundColor: '#fff', flex: 1}}>
         <StatusBar backgroundColor="#fff" />
-        // todo
-        {/* <Image
+        <Image
           style={{
             width: ScreenWidth,
             height: Height(25),
@@ -301,7 +300,7 @@ class NewPasswordSetup extends Component {
           }}
           resizeMode="contain"
           source={require('../images/intro3.png')}
-        /> */}
+        />
         <View style={{top: Height(-5)}}>
           <View style={styles.loginTxtView}>
             <Text style={styles.loginTxt}>Setup New Password</Text>
